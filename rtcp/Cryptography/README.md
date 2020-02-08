@@ -1,4 +1,4 @@
-RiceTeaCatPanda - Cryptography
+[RiceTeaCatPanda](https://riceteacatpanda.wtf/challenges) - Cryptography
 ===============
 
 HOOOOOOOOOOMEEEEEE RUNNNNNNNNNNNNN!!!!! (50 points)
