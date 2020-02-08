@@ -69,7 +69,7 @@ Challenge Author: Jess (the other one)/J
 
 **Solution**
 
-The challenge text is written with a substitution cypher. Using [Guballa](https://www.guballa.de/substitution-solver) gives the result aswell as the key:
+The challenge text seems to have the right spaces but the characters seem translated. This text written with a substitution cypher. Using [Guballa](https://www.guballa.de/substitution-solver) gives the decrypted text and the used encryption key:
 
 ```
 abcdefghijklmnopqrstuvwxyz     This clear text ...
@@ -80,4 +80,21 @@ sdviwenkcxpqzlamrtyohgfjbu     ... maps to this cipher text
 
 Flag: rtcp{c4r3ful_w1th_3x1f_d4t4}
 
+notice me senpai (100 points)
+---------------------------
+
+**Challenge**
+
+uwu...senpai placed this note on my desk before class but i cant wead what it says!!!!!! can you hewp me????????? uwu tysm
+
+tlyrc_o_0pnvhu}{137rmi__i_omwm
+
+Challenge Author: Jess (the other one)/J
+
+**Solution**
+The characters of the flag are scrambled in their order but with the . Using [Railfence]('http://rumkin.com/tools/cipher/railfence.php') the flag can be decreypted with 6 rails and an offset of 9. 
+
+Flag: rtcp{im_1n_lov3_wi7h_y0ur_mom}
+
+Their are different ciphers which scamble characters this way. Trying the different tools mentioned in John Hammonds [ctf-katana](http://rumkin.com/tools/cipher/railfence.php) would be a great start for these kind of encryptions.
 
