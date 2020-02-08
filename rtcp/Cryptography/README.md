@@ -50,13 +50,13 @@ Non-case sensitive.
 The secret consists of 32 hexadecimal digits which indicates a 128-bit (16-byte) [MD5](https://en.wikipedia.org/wiki/MD5) hash. Alot of MD5 hashes (including this one) can be decrypted with [online decoders](https://www.md5online.org/md5-decrypt.html). 
 
 
-Flag: rtcp{chocolate_mmm}
+Flag: `rtcp{chocolate_mmm}`
 
 15 (100 points)
 --------------------------
 
 **Challenge**
-
+```
 Lhzdwt eceowwl: Dhtnwt Pcln Eaao Qwoohvw
 
 Okw qsyo okcln bah'i fslo cl baht Dhtnwt Pcln dhtnwt cy yazwalw'y eaao ehlnhy. Dho sy co ohtly aho, okso zcnko dw fkso bah nwo. S 4vksllwt hmqasiwi s mkaoa slalbzahyqb oa okw ycow ykafvsycln kcy ewwo cl s mqsyocv dcl ae qwoohvw, fcok okw yosowzwlo: "Okcy cy okw qwoohvw bah wso so Dhtnwt Pcln." Sizcoowiqb, kw ksi ykawy al. Dho okso'y wgwl fatyw.
@@ -64,7 +64,7 @@ Okw qsyo okcln bah'i fslo cl baht Dhtnwt Pcln dhtnwt cy yazwalw'y eaao ehlnhy. D
 Okw mayo fwlo qcgw so 11:38 MZ al Xhqb 16, sli s zwtw ofwlob zclhowy qsowt, okw Dhtnwt Pcln cl rhwyocal fsy sqwtowi oa okw tanhw wzmqabww. So qwsyo, C kamw kw'y tanhw. Kaf ici co ksmmwl? Fwqq, okw DP wzmqabww ksil'o twzagwi okw WJCE isos etaz okw hmqasiwi mkaoa, fkcvk yhnnwyowi okw vhqmtco fsy yazwfkwtw cl Zsbecwqi Kwcnkoy, Akca. Okcy fsy so 11:47. Oktww zclhowy qsowt so 11:50, okw Dhtnwt Pcln dtslvk siitwyy fsy mayowi fcok fcykwy ae ksmmb hlwzmqabzwlo. Ecgw zclhowy qsowt, okw lwfy yosocal fsy valosvowi db slaokwt 4vksllwt. Sli oktww zclhowy qsowt, so 11:58, s qclp fsy mayowi: DP'y "Owqq hy sdaho hy" alqclw eathz. Okw eaao mkaoa, aokwtfcyw plafl sy wjkcdco S, fsy soosvkwi. Vqwgwqsli Yvwlw Zsnsuclw valosvowi okw DP cl rhwyocal okw lwjo isb. Fkwl rhwyocalwi, okw dtwspesyo ykceo zslsnwt ysci "Ak, C plaf fka okso cy. Kw'y nwoocln ectwi." Zbyowtb yaqgwi, db 4vksl. Laf fw vsl sqq na dsvp oa wsocln aht esyo eaai cl mwsvw.
 
 tovm{v4T3Ehq_f1oK_3J1e_i4O4}
-
+```
 Challenge Author: Jess (the other one)/J
 
 **Solution**
@@ -78,7 +78,7 @@ sdviwenkcxpqzlamrtyohgfjbu     ... maps to this cipher text
 
 [Quipquip](https://quipqiup.com/) is another tool to solve these substitution ciphers and has an input field for clues such as `tovm=rtcp`. This solver had more difficulties with uppercase characters, luckily the flag submissions are case insensitive.
 
-Flag: rtcp{c4r3ful_w1th_3x1f_d4t4}
+Flag: `rtcp{c4r3ful_w1th_3x1f_d4t4}`
 
 notice me senpai (100 points)
 ---------------------------
@@ -87,14 +87,14 @@ notice me senpai (100 points)
 
 uwu...senpai placed this note on my desk before class but i cant wead what it says!!!!!! can you hewp me????????? uwu tysm
 
-tlyrc_o_0pnvhu}{137rmi__i_omwm
+`tlyrc_o_0pnvhu}{137rmi__i_omwm`
 
 Challenge Author: Jess (the other one)/J
 
 **Solution**
 The characters of the flag are scrambled in their order but with the . Using [Railfence]('http://rumkin.com/tools/cipher/railfence.php') the flag can be decreypted with 6 rails and an offset of 9. 
 
-Flag: rtcp{im_1n_lov3_wi7h_y0ur_mom}
+Flag: `rtcp{im_1n_lov3_wi7h_y0ur_mom}`
 
 Their are different ciphers which scamble characters this way. Trying the different tools mentioned in John Hammonds [ctf-katana](http://rumkin.com/tools/cipher/railfence.php) would be a great start for these kind of encryptions.
 
