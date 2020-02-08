@@ -5,4 +5,4 @@ CTF-Playground
 
 --------------------------
 
-Goal is to get an overview of links, info and organize python scripts used for ctf's.
+Goal of this repository is to get an overview of tools, info and organize python scripts used for ctf's.
