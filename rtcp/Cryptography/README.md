@@ -92,6 +92,7 @@ uwu...senpai placed this note on my desk before class but i cant wead what it sa
 Challenge Author: Jess (the other one)/J
 
 **Solution**
+
 The characters of the flag are scrambled in their order but with the . Using [Railfence]('http://rumkin.com/tools/cipher/railfence.php') the flag can be decreypted with 6 rails and an offset of 9. 
 
 Flag: `rtcp{im_1n_lov3_wi7h_y0ur_mom}`
