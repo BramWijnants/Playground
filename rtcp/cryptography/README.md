@@ -1,4 +1,4 @@
-CTF-RiceTeaCatPanda Cryptography
+RiceTeaCatPanda - Cryptography
 ===============
 
 HOOOOOOOOOOMEEEEEE RUNNNNNNNNNNNNN!!!!! (50 points)
