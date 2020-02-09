@@ -99,5 +99,36 @@ Flag: `rtcp{im_1n_lov3_wi7h_y0ur_mom}`
 
 Their are different ciphers which scamble characters with similar looking results. Trying the different tools mentioned in [John Hammonds ctf-katana](http://rumkin.com/tools/cipher/railfence.php) would be a great start for these kind of encryptions.
 
-To be continued...
+Wrong Way (150 points)
 ---------------------------
+
+**Challenge**
+
+Did you know that you've been going the wrong way entire time?
+
+`E7Rq<G:Kǒ`
+
+**Hint**
+
+Format in rtcp{} format, adding _ underscores as needed. The flag should be case insensitive
+
+**Solution**
+
+To get the flag encode (instead of decode) the message with base64.
+
+Flag: rtcp{unexpected_places}
+
+That's Some Interesting Tea(rs)....... (175 points)
+---------------------------
+
+**Challenge**
+
+You know, the tears of one's enemies works lovely in tea. Turns out, there's tons of different bases for tea. In fact, I think I heard Delphine talk about this chef website she used for her tea base combinations. . .
+
+Oh! Speaking of which, GIANt wants Delphine to make him tea. . . all he has is the tea leaves and the cup though. Maybe you can help Delphine, since she's really busy with cooking other things?
+
+`
+O53GG4CSJRHEWQT2GJ5HC4CGOM4VKY3SOZGECZ2YNJTXO6LROV3DIR3CK4ZEMWCDHFMTOWSXGRSHU23DLJVTS5BXOQZXMU3ONJSFKRCVO5BEGVSELJSGUNSYLI2XQ32UOI3FKWDYMJQWOMKQOJ4XIU2WN5KTKWT2INUW44SZONGUUN2BMFRTQQJYKM3WGSSUNVXGEU3THFIFUSDHIVWVEQ3LJVUXEMSXK5MXSZ3TG5JXORKTMZRFIVQ=
+`
+
+**Solution**
