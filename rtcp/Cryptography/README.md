@@ -93,11 +93,11 @@ Challenge Author: Jess (the other one)/J
 
 **Solution**
 
-The characters of the flag are scrambled in their order but with the . Using [Railfence]('http://rumkin.com/tools/cipher/railfence.php') the flag can be decreypted with 6 rails and an offset of 9. 
+The characters of the flag are scrambled in their order but with the right characters. Using [Railfence]('http://rumkin.com/tools/cipher/railfence.php') the flag can be decrypted with 6 rails and an offset of 9. 
 
 Flag: `rtcp{im_1n_lov3_wi7h_y0ur_mom}`
 
-Their are different ciphers which scamble characters this way. Trying the different tools mentioned in [John Hammonds ctf-katana](http://rumkin.com/tools/cipher/railfence.php) would be a great start for these kind of encryptions.
+Their are different ciphers which scamble characters with similar looking results. Trying the different tools mentioned in [John Hammonds ctf-katana](http://rumkin.com/tools/cipher/railfence.php) would be a great start for these kind of encryptions.
 
 To be continued...
 ---------------------------
