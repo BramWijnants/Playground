@@ -69,7 +69,7 @@ Challenge Author: Jess (the other one)/J
 
 **Solution**
 
-The challenge text seems to have the right spaces but the characters seem translated. This text written with a substitution cypher. Using [Guballa](https://www.guballa.de/substitution-solver) gives the decrypted text and the used encryption key:
+The challenge text seems to have the spaces in the right place but the characters seem translated. This text is written with a substitution cipher. With this kind of cipher more text than the flag alone is needed to decrypt it. [Guballa](https://www.guballa.de/substitution-solver) can be used to decode this substitution cipher and supports mulitple languages. It gives the decrypted text and the used encryption key:
 
 ```
 abcdefghijklmnopqrstuvwxyz     This clear text ...
