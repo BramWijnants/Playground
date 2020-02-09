@@ -233,6 +233,6 @@ The [vigenere cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher) uses a
 
 This returns: `wyhu{ufsifx_xmtzqi_sty_gj_uzy_ns_ujsx}`
 
-Finally, it's told that panda like SALAD (like ceasar salad?), and the word ROTATION in the description also points towards the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher), which consists of a shifting of the letters. Using [cryptii](https://cryptii.com/) again with Caesar 5, it returns the flag: `rtcp{pandas_should_not_be_put_in_pens}`
+Finally, it's told that the panda likes SALAD (like ceasar salad?), and the word ROTATION in the description also points towards the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher), which consists of a shifting of the characters. Using [cryptii](https://cryptii.com/) again with Caesar 5 gives the flag: `rtcp{pandas_should_not_be_put_in_pens}`
 
 Flag: rtcp{pandas_should_not_be_put_in_pens} 
