@@ -12,6 +12,7 @@ CHALLENGES
 6. [ That's Some Interesting Tea(rs)....... ](#tears)
 7. [ That's a Lot of Stuff . . . ](#stuff)
 8. [ Pandas Like Salads ](#salads)
+9. [ FBI ](#fbi)
 
 <a name="home_run"></a>
 ## 1. HOOOOOOOOOOMEEEEEE RUNNNNNNNNNNNNN!!!!! (50 points)
@@ -236,3 +237,11 @@ This returns: `wyhu{ufsifx_xmtzqi_sty_gj_uzy_ns_ujsx}`
 Finally, it's told that the panda likes SALAD (like ceasar salad?), and the word ROTATION in the description also points towards the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher), which consists of a shifting of the characters. Using [cryptii](https://cryptii.com/) again with Caesar 5 gives the flag: `rtcp{pandas_should_not_be_put_in_pens}`
 
 Flag: rtcp{pandas_should_not_be_put_in_pens} 
+
+<a name="fbi"></a>
+## 9. FBI (375 points)
+
+**Challenge description**
+
+Happy MLK day! (January 20th for y'alls non-American folk).
+
