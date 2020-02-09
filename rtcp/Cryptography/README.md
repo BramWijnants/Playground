@@ -1,7 +1,18 @@
 [RiceTeaCatPanda](https://riceteacatpanda.wtf/challenges) - Cryptography
 ===============
 
-HOOOOOOOOOOMEEEEEE RUNNNNNNNNNNNNN!!!!! (50 points)
+TABLE OF CONTENTS
+----------------------
+
+1. [ HOOOOOOOOOOMEEEEEE RUNNNNNNNNNNNNN!!!!! ](#home_run)
+2. [ Don't Give The GIANt a COOKie ](#giant_cookie)
+3. [ 15 ](#15)
+4. [ notice me senpai ](#notice)
+5. [ Wrong Way ](#wrong)
+6. [ That's Some Interesting Tea(rs)....... ](#Tears)
+
+<a name="home_run"></a>
+## 1. HOOOOOOOOOOMEEEEEE RUNNNNNNNNNNNNN!!!!! (50 points)
 -----------------------
 
 **Challenge**
@@ -26,7 +37,8 @@ Decode either with Python (see home_run.py - using the base64 python package) or
 
 Flag: rtcp{uH_JAk3_w3REn't_y0u_4t_Th3_uWust0r4g3}
 
-Don't Give The GIANt a COOKie (100 points)
+<a name="giant_cookie"></a>
+## 2.Don't Give The GIANt a COOKie (100 points)
 -----------------------
 
 **Challenge**
@@ -52,7 +64,8 @@ The secret consists of 32 hexadecimal digits which indicates a 128-bit (16-byte)
 
 Flag: `rtcp{chocolate_mmm}`
 
-15 (100 points)
+<a name="15"></a>
+## 3. 15 (100 points)
 --------------------------
 
 **Challenge**
@@ -80,7 +93,8 @@ sdviwenkcxpqzlamrtyohgfjbu     ... maps to this cipher text
 
 Flag: `rtcp{c4r3ful_w1th_3x1f_d4t4}`
 
-notice me senpai (100 points)
+<a name="notice"></a>
+## 4. notice me senpai (100 points)
 ---------------------------
 
 **Challenge**
@@ -99,7 +113,8 @@ Flag: `rtcp{im_1n_lov3_wi7h_y0ur_mom}`
 
 Their are different ciphers which scamble characters with similar looking results. Trying the different tools mentioned in [John Hammonds ctf-katana](http://rumkin.com/tools/cipher/railfence.php) would be a great start for these kind of encryptions.
 
-Wrong Way (150 points)
+<a name="wrong"></a>
+## 5. Wrong Way (150 points)
 ---------------------------
 
 **Challenge**
@@ -118,7 +133,8 @@ To get the flag encode (instead of decode) the message with base64 either with t
 
 Flag: rtcp{unexpected_places}
 
-That's Some Interesting Tea(rs)....... (175 points)
+<a name="Tears"></a>
+## 6. That's Some Interesting Tea(rs)....... (175 points)
 ---------------------------
 
 **Challenge**
@@ -133,4 +149,35 @@ O53GG4CSJRHEWQT2GJ5HC4CGOM4VKY3SOZGECZ2YNJTXO6LROV3DIR3CK4ZEMWCDHFMTOWSXGRSHU23D
 
 **Solution**
 
-Secret has all capital characters, doesn't use all the numbers and has a equal sign at the end for padding. This suggest a base32 encoded message. Since this challenge will require multiple decodings it might be more convenient to use [CyberChef](http://icyberchef.com/) rather than python.
+Secret has all capital characters, doesn't use all the numbers (only 2-7) and has a equal sign at the end for padding. This suggest a base32 encoded message. Since this challenge will require multiple decodings it might be more convenient to use [CyberChef](https://gchq.github.io/CyberChef/) rather than python.
+
+From Base32 returns:
+
+`
+wvcpRLNKBz2zqpFs9UcrvLAgXjgwyquv4GbW2FXC9Y7ZW4dzkcZk9t7t3vSnjdUDUwBCVDZdj6XZ5xoTr6UXxbag1PrytSVoU5ZzCinrYsMJ7Aac8A8S7cJTmnbSs9PZHgEmRCkMir2WWYygs7SwESfbTV
+`
+
+This output looks like a higher base than 32, after some different attempts Base58 returns:
+
+`
+BGJz4dCH0UuQZ2Q9vLExJUKcrvdIoYRwrspUSms5eRJoVc3WAztlKjjkEXDJuI1uqXQT3OdCcm8LjC12gR3Fd1EfZ2isyNxfe55MiOvz2DYGDb9dh
+`
+
+This output from Base62:
+
+`
+RWNiZjFIWldwWEY+W0RfMFByVVEyKUssa0ghYllMMWdfdEVAVmRsPDFMRHRUQ2dWOXQwUVQkV0Y+R2FvRisi
+`
+
+This output from Base64:
+`
+Ecbf1HZWpXF>[D_0PrUQ2)K,kH!bYL1g_tE@Vdl<1LDtTCgV9t0QT$WF>GaoF+"
+`
+
+This output from base85:
+`
+rtcp{th4t5_50m3_54lty_t34_1_bl4m3_4ll_th0s3_t34rs}
+`
+
+Flag: rtcp{th4t5_50m3_54lty_t34_1_bl4m3_4ll_th0s3_t34rs}
+
