@@ -11,6 +11,7 @@ CHALLENGES
 5. [ Wrong Way ](#wrong)
 6. [ That's Some Interesting Tea(rs)....... ](#tears)
 7. [ That's a Lot of Stuff . . . ](#stuff)
+8. [ Pandas Like Salads ](#salads)
 
 <a name="home_run"></a>
 ## 1. HOOOOOOOOOOMEEEEEE RUNNNNNNNNNNNNN!!!!! (50 points)
@@ -177,7 +178,7 @@ rtcp{th4t5_50m3_54lty_t34_1_bl4m3_4ll_th0s3_t34rs}
 Flag: rtcp{th4t5_50m3_54lty_t34_1_bl4m3_4ll_th0s3_t34rs}
 
 <a name="stuff"></a>
-## 6. That's a Lot of Stuff . . . (270 points)
+## 7. That's a Lot of Stuff . . . (270 points)
 
 **Challenge description**
 
@@ -188,3 +189,32 @@ Do you want some numbers? Here, take these numbers. I don't need them anyways. I
 `
 
 **Solution**
+
+These numbers have a certain pattern to them. It could be [Octal](https://en.wikipedia.org/wiki/Octal) since none are higher than 8 but this returns nothing interesting. The 20's in Hex would translate to a spaces. Trying From Hex on [CyberChef](https://gchq.github.io/CyberChef/) returns more numbers:
+
+`
+143 156 122 152 143 110 164 152 115 107 65 62 115 63 112 172 115 124 102 165 143 61 71 150 143 152 116 146 116 106 71 152 115 104 102 115 130 62 115 60 144 110 116 71
+`
+
+This is octal, using From Octal returns:
+
+`
+cnRjcHtjMG52M3JzMTBuc19hcjNfNF9jMDBMX2M0dHN9
+`
+
+Based on the upper- and lowercase characters aswell as 0-9 numbers suggest a high base encoding. Using from Base64 returns the flag:
+
+`
+rtcp{c0nv3rs10ns_ar3_4_c00L_c4ts}
+`
+
+Flag: rtcp{c0nv3rs10ns_ar3_4_c00L_c4ts}
+
+<a name="salads"></a>
+## 8. Pandas Like Salads (350 points)
+
+**Challenge description**
+
+Did you know a new panda was added to the Washington DC zoo recently? Yep, apparently she really like salads. Interesting, yeah? Also, the panda keepers of the zoo said that the key to happiness in life is a little CUTENESS every day. You know, all the keepers who are on the panda's rotation all said the same thing to me. Very interesting.
+
+![img/pandas_like_salads.png](pandas_like_salads.png)
