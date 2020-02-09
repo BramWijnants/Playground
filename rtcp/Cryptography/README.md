@@ -105,7 +105,7 @@ Challenge Author: Jess (the other one)/J
 
 **Solution**
 
-The characters of the flag are scrambled in their order but with the right characters. Using [Railfence]('http://rumkin.com/tools/cipher/railfence.php') the flag can be decrypted with 6 rails and an offset of 9. 
+The characters of the flag are scrambled in their order but with the right characters. Using [Railfence]('http://rumkin.com/tools/cipher/railfence.php') the flag can be decrypted, the number of exclamation marks and question marks in the description are a clue to the key and offset (6 rails and an offset of 9). 
 
 Flag: `rtcp{im_1n_lov3_wi7h_y0ur_mom}`
 
@@ -210,6 +210,8 @@ rtcp{c0nv3rs10ns_ar3_4_c00L_c4ts}
 
 Flag: rtcp{c0nv3rs10ns_ar3_4_c00L_c4ts}
 
+Within CyberChef there is the option for 'Magic' which automaticly tries decoding untill a given depth. Using Magic here would immediatly result in the flag.
+
 <a name="salads"></a>
 ## 8. Pandas Like Salads (350 points)
 
@@ -218,3 +220,19 @@ Flag: rtcp{c0nv3rs10ns_ar3_4_c00L_c4ts}
 Did you know a new panda was added to the Washington DC zoo recently? Yep, apparently she really like salads. Interesting, yeah? Also, the panda keepers of the zoo said that the key to happiness in life is a little CUTENESS every day. You know, all the keepers who are on the panda's rotation all said the same thing to me. Very interesting.
 
 ![img/pandas_like_salads.png](img/pandas_like_salads.png)
+
+**Solution**
+
+The secret in the picture is encoded with the [PigPen cipher](https://en.wikipedia.org/wiki/Pigpen_cipher) . It can be decrypted using this table :
+
+![PigPenCypher.png](https://upload.wikimedia.org/wikipedia/commons/7/7e/Pigpen.png)
+
+This returns: `ysay{hjkahr_qqgdia_unr_kw_yrq_pm_nnfb}`
+
+The vigenere cipher use a key (a word) to encrypt something. In the description of the challenge, the panda keepers of the zoo said that the KEY to happiness in life is a little CUTENESS. We can apply the Vigenere cipher on `ysay{hjkahr_qqgdia_unr_kw_yrq_pm_nnfb}` using `cuteness` as the key.
+
+It gives `wyhu{ufsifx_xmtzqi_sty_gj_uzy_ns_ujsx}`
+
+Finally, it's told that panda like SALAD (like ceasar salad?), and the word ROTATION in the description also points towards the Caesar cipher, which consists of a shifting of the letters.
+
+With Caesar 5, it returns the flag: `rtcp{pandas_should_not_be_put_in_pens}`
