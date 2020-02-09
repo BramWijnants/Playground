@@ -225,13 +225,13 @@ Did you know a new panda was added to the Washington DC zoo recently? Yep, appar
 
 The secret in the picture is encoded with the [PigPen cipher](https://en.wikipedia.org/wiki/Pigpen_cipher) . It can be decrypted using this table :
 
-![PigPenCypher.png](https://upload.wikimedia.org/wikipedia/commons/7/7e/Pigpen.png)
+![PigPenCypher.png](http://crypto.interactive-maths.com/uploads/1/1/3/4/11345755/8059746_orig.gif)
 
 This returns: `ysay{hjkahr_qqgdia_unr_kw_yrq_pm_nnfb}`
 
-The vigenere cipher use a key (a word) to encrypt something. In the description of the challenge, the panda keepers of the zoo said that the KEY to happiness in life is a little CUTENESS. We can apply the Vigenere cipher on `ysay{hjkahr_qqgdia_unr_kw_yrq_pm_nnfb}` using `cuteness` as the key.
+The vigenere cipher uses a key (a word) to encrypt something. In the description of the challenge, the panda keepers of the zoo said that the KEY to happiness in life is a little CUTENESS. We can apply the Vigenere cipher on `ysay{hjkahr_qqgdia_unr_kw_yrq_pm_nnfb}` using `cuteness` as the key.
 
-It gives `wyhu{ufsifx_xmtzqi_sty_gj_uzy_ns_ujsx}`
+This returns: `wyhu{ufsifx_xmtzqi_sty_gj_uzy_ns_ujsx}`
 
 Finally, it's told that panda like SALAD (like ceasar salad?), and the word ROTATION in the description also points towards the Caesar cipher, which consists of a shifting of the letters.
 
