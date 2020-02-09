@@ -76,7 +76,7 @@ abcdefghijklmnopqrstuvwxyz     This clear text ...
 sdviwenkcxpqzlamrtyohgfjbu     ... maps to this cipher text
 ```
 
-[Quipquip](https://quipqiup.com/) is another tool to solve these substitution ciphers and has an input field for clues such as `tovm=rtcp`. This solver had more difficulties with uppercase characters, luckily the flag submissions are case insensitive.
+[Quipquip](https://quipqiup.com/) is another tool to solve these substitution ciphers and has an input field for clues such as `tovm=rtcp`. This solver had more difficulties with uppercase characters, luckily the flag submissions for this ctf are case insensitive.
 
 Flag: `rtcp{c4r3ful_w1th_3x1f_d4t4}`
 
