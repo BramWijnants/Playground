@@ -22,7 +22,7 @@ Ecbf1HZ_kd8jR5K?[";(7;aJp?[4>J?Slk3<+n'pF]W^,F>._lB/=r
 **Solution**
 
 The flag is [Base85](https://en.wikipedia.org/wiki/Ascii85) (also named Ascii85) encoded. 
-Decode either with Python (see home_run.py - using the base64 python package) or use an online tools like [cryptii](https://cryptii.com/).
+Decode either with Python (see home_run.py - using the base64 python package) or use an online tool like [cryptii](https://cryptii.com/).
 
 Flag: rtcp{uH_JAk3_w3REn't_y0u_4t_Th3_uWust0r4g3}
 
