@@ -97,5 +97,5 @@ The characters of the flag are scrambled in their order but with the . Using [Ra
 
 Flag: `rtcp{im_1n_lov3_wi7h_y0ur_mom}`
 
-Their are different ciphers which scamble characters this way. Trying the different tools mentioned in John Hammonds [ctf-katana](http://rumkin.com/tools/cipher/railfence.php) would be a great start for these kind of encryptions.
+Their are different ciphers which scamble characters this way. Trying the different tools mentioned in [John Hammonds ctf-katana](http://rumkin.com/tools/cipher/railfence.php) would be a great start for these kind of encryptions.
 
