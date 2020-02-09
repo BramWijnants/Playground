@@ -9,12 +9,13 @@ CHALLENGES
 3. [ 15 ](#15)
 4. [ notice me senpai ](#notice)
 5. [ Wrong Way ](#wrong)
-6. [ That's Some Interesting Tea(rs)....... ](#Tears)
+6. [ That's Some Interesting Tea(rs)....... ](#tears)
+7. [ That's a Lot of Stuff . . . ](#stuff)
 
 <a name="home_run"></a>
 ## 1. HOOOOOOOOOOMEEEEEE RUNNNNNNNNNNNNN!!!!! (50 points)
 
-**Challenge**
+**Challenge description**
 
 AND JAKE IS ROUNDING THE BASES \
 HE PASSES BASE 32!!! \
@@ -39,7 +40,7 @@ Flag: rtcp{uH_JAk3_w3REn't_y0u_4t_Th3_uWust0r4g3}
 <a name="giant_cookie"></a>
 ## 2.Don't Give The GIANt a COOKie (100 points)
 
-**Challenge**
+**Challenge description**
 
 It was just a typical day in the bakery for Delphine. She was preparing her famous chocolate cake, when all of a sudden a GIANt burst through the doors of her establishment and demanded a cookie. Being the strong-willed girl she was, Delphine refused and promptly threw her rolling pin at the GIANt. Doing what any sensible being would do when faced with projectiles, the GIANt let out a shriek and ran out of the shop. Delphine smiled to herself, it was another day well done.
 
@@ -65,7 +66,7 @@ Flag: `rtcp{chocolate_mmm}`
 <a name="15"></a>
 ## 3. 15 (100 points)
 
-**Challenge**
+**Challenge description**
 ```
 Lhzdwt eceowwl: Dhtnwt Pcln Eaao Qwoohvw
 
@@ -93,7 +94,7 @@ Flag: `rtcp{c4r3ful_w1th_3x1f_d4t4}`
 <a name="notice"></a>
 ## 4. notice me senpai (100 points)
 
-**Challenge**
+**Challenge description**
 
 uwu...senpai placed this note on my desk before class but i cant wead what it says!!!!!! can you hewp me????????? uwu tysm
 
@@ -112,7 +113,7 @@ Their are different ciphers which scamble characters with similar looking result
 <a name="wrong"></a>
 ## 5. Wrong Way (150 points)
 
-**Challenge**
+**Challenge description**
 
 Did you know that you've been going the wrong way entire time?
 
@@ -128,10 +129,10 @@ To get the flag encode (instead of decode) the message with base64 either with t
 
 Flag: rtcp{unexpected_places}
 
-<a name="Tears"></a>
+<a name="tears"></a>
 ## 6. That's Some Interesting Tea(rs)....... (175 points)
 
-**Challenge**
+**Challenge description**
 
 You know, the tears of one's enemies works lovely in tea. Turns out, there's tons of different bases for tea. In fact, I think I heard Delphine talk about this chef website she used for her tea base combinations. . .
 
@@ -168,10 +169,22 @@ This output from Base64:
 Ecbf1HZWpXF>[D_0PrUQ2)K,kH!bYL1g_tE@Vdl<1LDtTCgV9t0QT$WF>GaoF+"
 `
 
-This output from base85:
+This output from Base85:
 `
 rtcp{th4t5_50m3_54lty_t34_1_bl4m3_4ll_th0s3_t34rs}
 `
 
 Flag: rtcp{th4t5_50m3_54lty_t34_1_bl4m3_4ll_th0s3_t34rs}
 
+<a name="stuff"></a>
+## 6. That's a Lot of Stuff . . . (270 points)
+
+**Challenge description**
+
+Do you want some numbers? Here, take these numbers. I don't need them anyways. I have too many numbers at home, so go on, take them. Shoves numbers towards the computer screen
+
+`
+31 34 33 20 31 35 36 20 31 32 32 20 31 35 32 20 31 34 33 20 31 31 30 20 31 36 34 20 31 35 32 20 31 31 35 20 31 30 37 20 36 35 20 36 32 20 31 31 35 20 36 33 20 31 31 32 20 31 37 32 20 31 31 35 20 31 32 34 20 31 30 32 20 31 36 35 20 31 34 33 20 36 31 20 37 31 20 31 35 30 20 31 34 33 20 31 35 32 20 31 31 36 20 31 34 36 20 31 31 36 20 31 30 36 20 37 31 20 31 35 32 20 31 31 35 20 31 30 34 20 31 30 32 20 31 31 35 20 31 33 30 20 36 32 20 31 31 35 20 36 30 20 31 34 34 20 31 31 30 20 31 31 36 20 37 31
+`
+
+**Solution**
