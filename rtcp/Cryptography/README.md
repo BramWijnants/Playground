@@ -13,7 +13,6 @@ TABLE OF CONTENTS
 
 <a name="home_run"></a>
 ## 1. HOOOOOOOOOOMEEEEEE RUNNNNNNNNNNNNN!!!!! (50 points)
------------------------
 
 **Challenge**
 
@@ -39,7 +38,6 @@ Flag: rtcp{uH_JAk3_w3REn't_y0u_4t_Th3_uWust0r4g3}
 
 <a name="giant_cookie"></a>
 ## 2.Don't Give The GIANt a COOKie (100 points)
------------------------
 
 **Challenge**
 
@@ -66,7 +64,6 @@ Flag: `rtcp{chocolate_mmm}`
 
 <a name="15"></a>
 ## 3. 15 (100 points)
---------------------------
 
 **Challenge**
 ```
@@ -95,7 +92,6 @@ Flag: `rtcp{c4r3ful_w1th_3x1f_d4t4}`
 
 <a name="notice"></a>
 ## 4. notice me senpai (100 points)
----------------------------
 
 **Challenge**
 
@@ -115,7 +111,6 @@ Their are different ciphers which scamble characters with similar looking result
 
 <a name="wrong"></a>
 ## 5. Wrong Way (150 points)
----------------------------
 
 **Challenge**
 
@@ -135,7 +130,6 @@ Flag: rtcp{unexpected_places}
 
 <a name="Tears"></a>
 ## 6. That's Some Interesting Tea(rs)....... (175 points)
----------------------------
 
 **Challenge**
 
