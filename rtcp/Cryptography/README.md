@@ -1,7 +1,7 @@
 [RiceTeaCatPanda](https://riceteacatpanda.wtf/challenges) - Cryptography
 ===============
 
-TABLE OF CONTENTS
+CHALLENGES
 ----------------------
 
 1. [ HOOOOOOOOOOMEEEEEE RUNNNNNNNNNNNNN!!!!! ](#home_run)
