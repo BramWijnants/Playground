@@ -114,7 +114,7 @@ Format in rtcp{} format, adding _ underscores as needed. The flag should be case
 
 **Solution**
 
-To get the flag encode (instead of decode) the message with base64.
+To get the flag encode (instead of decode) the message with base64 either with the python package base64 or an online tool.
 
 Flag: rtcp{unexpected_places}
 
@@ -132,3 +132,5 @@ O53GG4CSJRHEWQT2GJ5HC4CGOM4VKY3SOZGECZ2YNJTXO6LROV3DIR3CK4ZEMWCDHFMTOWSXGRSHU23D
 `
 
 **Solution**
+
+Secret has all capital characters, doesn't use all the numbers and has a equal sign at the end for padding. This suggest a base32 encoded message. Since this challenge will require multiple decodings it might be more convenient to use [CyberChef](http://icyberchef.com/) rather than python.
