@@ -229,10 +229,10 @@ The secret in the picture is encoded with the [PigPen cipher](https://en.wikiped
 
 This returns: `ysay{hjkahr_qqgdia_unr_kw_yrq_pm_nnfb}`
 
-The vigenere cipher uses a key (a word) to encrypt something. In the description of the challenge, the panda keepers of the zoo said that the KEY to happiness in life is a little CUTENESS. We can apply the Vigenere cipher on `ysay{hjkahr_qqgdia_unr_kw_yrq_pm_nnfb}` using `cuteness` as the key.
+The [vigenere cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher) uses a key (a word) to encrypt something. In the description of the challenge, the panda keepers of the zoo said that the KEY to happiness in life is a little CUTENESS. This cipher can be decoded with [cryptii](https://cryptii.com/) using `cuteness` as the key.
 
 This returns: `wyhu{ufsifx_xmtzqi_sty_gj_uzy_ns_ujsx}`
 
-Finally, it's told that panda like SALAD (like ceasar salad?), and the word ROTATION in the description also points towards the Caesar cipher, which consists of a shifting of the letters.
+Finally, it's told that panda like SALAD (like ceasar salad?), and the word ROTATION in the description also points towards the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher), which consists of a shifting of the letters. Using [cryptii](https://cryptii.com/) again with Caesar 5, it returns the flag: `rtcp{pandas_should_not_be_put_in_pens}`
 
-With Caesar 5, it returns the flag: `rtcp{pandas_should_not_be_put_in_pens}`
+Flag: rtcp{pandas_should_not_be_put_in_pens} 
