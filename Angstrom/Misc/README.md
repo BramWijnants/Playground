@@ -17,7 +17,8 @@ CHALLENGES
 Find my password from this recording (:
 
 **Solution**
-recording.pcapng can be downloaded and opened with Wireshark to see the recording. Manually looking trough the data showed the flag pretty quick.
+"ws1" is a reference to Wireshark.
+The attached recording.pcapng can be opened with Wireshark to see the recording of the internet traffic. Manually looking trough the data showed the flag pretty quick.
 
 Flag: actf{wireshark_isn't_so_bad_huh-a9d8g99ikdf}
 
@@ -40,8 +41,8 @@ Typing `clamclam` in the terminal is no easy feat with the spam going on. With p
 
 Flag: actf{cl4m_is_my_f4v0rite_ctfer_in_th3_w0rld}
 
-<a name="ws1"></a>
-## 5. ws1 (80 points)
+<a name="ws2"></a>
+## 5. ws2 (80 points)
 
 **Challenge description**
 
@@ -53,3 +54,8 @@ recording.pcapng
 ` What did I send? `
 
 **Solution**
+Second part of the wireshark challenge. This time an image shows up as being uploaded (line no 64). The image can be saved by going to File -> Export objects -> HTTP.
+
+The file isn't recognized as an image file because of a WebKitFormBoundary header. After deleting this header (first 4 lines and the last line) the image shows up correctly:
+
+![img/ws2.jpg](img/ws2.jpg)
