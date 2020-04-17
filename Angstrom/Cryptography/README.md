@@ -47,7 +47,7 @@ Encrypted image:
 
 The image pixels are getting transformed by the python script with: 
 `pixel[i] = pixel[i] * key[i] % 251`. 
-For Red, Green and Blue different key constants are used. Because of the `%` sign in theory multiple pixel values could give similar answers. Instead of trying to come up with something clever I made a for-loop to check all 255 pixel values which encoded value would correspond.
+For Red, Green and Blue different key constants are used. The modulo operator (`%`) could in theory give the same outcome for different input values. Instead of trying to come up with something clever I made a for-loop to check all 255 pixel values which encoded value would correspond.
 When looking at the translation dictionaries very few matching values could be found. Using the created dictionaries the decrypted picture can be produced:
 
 ![img/dec.png](img/dec.png)
