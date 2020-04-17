@@ -6,6 +6,7 @@ CHALLENGES
 
 1. [ Keysar ](#keysar)
 3. [ Wacko Images ](#wacko)
+5. [ One Time Bad ](#one_time)
 
 <a name="keysar"></a>
 ## 1. Keysar (40 points)
@@ -53,4 +54,21 @@ When looking at the translation dictionaries very few matching values could be f
 ![img/dec.png](img/dec.png)
 
 Flag: actf{m0dd1ng_sk1llz}
+
+<a name="one_time"></a>
+## 5. One Time Bad (100 points)
+
+**Challenge description**
+
+My super secure service is available now!
+
+Heck, even with the source, I bet you won't figure it out.
+
+`nc misc.2020.chall.actf.co 20301`
+
+**Solution**
+
+The encryption is based on base64 encoding, decoding and creating some random integers. Some vulnerability seems to be in the length of the ciphertext which can be random from 1 to 30. Bruteforcing the server with the answer `A` is bound to give the flag sometime. With the script `one_time.py` the flag pops up after around 5 - 10 minutes.
+
+Flag: actf{one_time_pad_more_like_i_dont_like_crypto-1982309}
 
