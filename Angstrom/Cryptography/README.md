@@ -4,10 +4,10 @@
 CHALLENGES
 ----------------------
 
-1. [ Keysar ](#Keysar)
+1. [ Keysar ](#keysar)
 3. [ Wacko Images ](#wacko)
 
-<a name="Keysar"></a>
+<a name="keysar"></a>
 ## 1. Keysar (40 points)
 
 **Challenge description**
@@ -41,7 +41,16 @@ The flag is `actf{x#xx#xx_xx#xxx}` where `x` represents any lowercase letter and
 
 **Solution**
 
+Encrypted image:
+
 ![img/enc.png](img/enc.png)
 
+The image pixels are getting transformed by the python script with: 
+`pixel[i] = pixel[i] * key[i] % 251`. 
+For Red, Green and Blue different key constants are used. Because of the `%` sign in theory multiple pixel values could give similar answers. Instead of trying to come up with something clever I made a for-loop to check all 255 pixel values which encoded value would correspond.
+When looking at the translation dictionaries very few matching values could be found. Using the created dictionaries the decrypted picture can be produced:
 
-`pixel[i] = pixel[i] * key[i] % 251`
+![img/dec.png](img/dec.png)
+
+Flag: actf{m0dd1ng_sk1llz}
+
