@@ -67,7 +67,7 @@ The file isn't recognized as an image file because of a WebKitFormBoundary heade
 Flag: actf{ok_to_b0r0s-4809813}
 
 <a name="ws2"></a>
-## 5. ws3 (180 points)
+## 10. ws3 (180 points)
 
 **Challenge description**
 
