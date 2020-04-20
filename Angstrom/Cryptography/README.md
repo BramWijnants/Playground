@@ -6,6 +6,7 @@ CHALLENGES
 
 1. [ Keysar ](#keysar)
 3. [ Wacko Images ](#wacko)
+4. [ Confused Streaming ](#confused)
 5. [ One Time Bad ](#one_time)
 
 <a name="keysar"></a>
@@ -55,6 +56,35 @@ When looking at the translation dictionaries very few matching values could be f
 
 Flag: actf{m0dd1ng_sk1llz}
 
+<a name="confused"></a>
+## 4. Confused Streaming (100 points)
+
+**Challenge description**
+
+I made a stream cipher!
+
+`nc crypto.2020.chall.actf.co 20601`
+
+**Hint**
+
+look at dream stream
+
+**Solution**
+
+The stream asks for 3 variables, a, b and c and uses the abc-formula to generate a key. When making sure the b is high and a and c are low the formula needs to do the square root of a negative number and will return a binary flag:
+
+
+`01100001011000110111010001100110011110110110010001101111011101110110111001011111011101000110111101011111011101000110100001100101010111110110010001100101011000110110100101101101011000010110110001111101`
+
+To convert to ascii, unhexify and undo some of the algorithm sparkles:
+
+`binascii.unhexlify(hex(int(enc_flag,2))[2:])`
+
+To get the flag:
+
+Flag: actf{down_to_the_decimal}
+
+
 <a name="one_time"></a>
 ## 5. One Time Bad (100 points)
 
@@ -71,4 +101,3 @@ Heck, even with the source, I bet you won't figure it out.
 The encryption is based on base64 encoding, decoding and creating some random integers. Some vulnerability seems to be in the length of the ciphertext which can be random from 1 to 30. Bruteforcing the server with the answer `A` is bound to give the flag sometime. With the script `one_time.py` the flag pops up after around 5 - 10 minutes.
 
 Flag: actf{one_time_pad_more_like_i_dont_like_crypto-1982309}
-
