@@ -61,6 +61,6 @@ Second part of the wireshark challenge. This time an image shows up as being upl
 
 The file isn't recognized as an image file because of a WebKitFormBoundary header. After deleting this header (first 4 lines and the last line) the image shows up correctly:
 
-![img/ws2.jpg](img/ws2.png)
+![img/ws2.png](img/ws2.png)
 
 Flag: actf{ok_to_b0r0s-4809813}
