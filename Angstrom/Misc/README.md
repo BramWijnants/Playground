@@ -86,6 +86,6 @@ Binwalk the biggest file and export it with:
 
 To get the image:
 
-![img/ws2.png](img/ws3.jpg)
+![img/ws3.png](img/ws3.png)
 
 Flag: actf{git_good_git_wireshark-123323}
