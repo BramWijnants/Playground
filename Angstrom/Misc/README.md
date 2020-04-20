@@ -7,6 +7,7 @@ CHALLENGES
 3. [ ws1 ](#ws1)
 4. [ clam clam clam ](#clam)
 5. [ ws2 ](#ws2)
+10. [ ws3 ](#ws3)
 
 
 <a name="ws1"></a>
@@ -64,3 +65,27 @@ The file isn't recognized as an image file because of a WebKitFormBoundary heade
 ![img/ws2.png](img/ws2.png)
 
 Flag: actf{ok_to_b0r0s-4809813}
+
+<a name="ws2"></a>
+## 5. ws3 (180 points)
+
+**Challenge description**
+
+What the... record.pcapng
+
+**Hint**
+
+Did I send something? Or...
+
+**Solution**
+
+Open the record.pcapng with wireshark and export all http objects.
+Binwalk the biggest file and export it with:
+
+`binwalk -e git-receive-pack`
+
+To get the image:
+
+![img/ws2.png](img/ws3.jpg)
+
+Flag: actf{git_good_git_wireshark-123323}
