@@ -144,6 +144,8 @@ The code that was used to generate the transmission is included
 The downloaded transmission is a list of 28800 floats. The code that was used to generate it used morse code and converted it to 0's and 1's. For short, 10 1's and 10 0's, for long 20 1's and 10 0's and for space 30 0's. 
 
 ```
+# Code used to make the transmission
+
 import numpy as np
 from random import gauss
 morse = REDACTED
