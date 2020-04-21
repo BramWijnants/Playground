@@ -96,7 +96,7 @@ You have 60 seconds!
 --------------------
 Shift DXWREJZUFLJWVB by n=6
 ```
-I made the script shifter.py which does calculate the fibonacci numbers and encrypts the plaintext with ceasar and the shift. When time is restricted and the n is limited I guess I could also have googled or calculated the 50 terms.
+I made the script shifter.py actually calculate the fibonacci number and encrypts the plaintext with the ceasar cypher and the calculated shift. Time doesnt seem restricted. When time is more restricted and the n is limited like this I could also have googled or calculated the 50 terms.
 
 Flag: actf{h0p3_y0u_us3d_th3_f0rmu14-1985098}
 
