@@ -7,7 +7,9 @@ CHALLENGES
 3. [ ws1 ](#ws1)
 4. [ clam clam clam ](#clam)
 5. [ ws2 ](#ws2)
+9. [ Shifter ](#shifter)
 10. [ ws3 ](#ws3)
+
 
 
 <a name="ws1"></a>
@@ -65,6 +67,39 @@ The file isn't recognized as an image file because of a WebKitFormBoundary heade
 ![img/ws2.png](img/ws2.png)
 
 Flag: actf{ok_to_b0r0s-4809813}
+
+<a name="shifter"></a>
+## 9. Shifter (160 points)
+
+**Challenge Desciption**
+
+What a strange challenge...
+
+It'll be no problem for you, of course!
+
+`nc misc.2020.chall.actf.co 20300`
+
+**Hint**
+
+`Do you really need to calculate all those numbers?`
+
+**Solution**
+
+The port returns a series of 50 challenges like:
+
+```
+Solve 50 of these epic problems in a row to prove you are a master crypto man like Aplet123!
+You'll be given a number n and also a plaintext p.
+Caesar shift `p` with the nth Fibonacci number.
+n < 50, p is completely uppercase and alphabetic, len(p) < 50
+You have 60 seconds!
+--------------------
+Shift DXWREJZUFLJWVB by n=6
+```
+I made the script shifter.py which does calculate the fibonacci numbers and encrypts the plaintext with ceasar and the shift. When time is restricted and the n is limited I guess I could also have googled or calculated the 50 terms.
+
+Flag: actf{h0p3_y0u_us3d_th3_f0rmu14-1985098}
+
 
 <a name="ws2"></a>
 ## 10. ws3 (180 points)
