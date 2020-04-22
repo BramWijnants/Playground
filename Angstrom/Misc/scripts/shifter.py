@@ -41,6 +41,7 @@ if __name__ == '__main__':
     
     #recieve data, encode bytes to string and get P and n from message
     msg = clientsocket.recv(640).decode('UTF-8')
+    
     p = msg[302:].split(' ')[0]
     n = int(msg[302:].split(' ')[2][2:-2])
     
@@ -48,12 +49,11 @@ if __name__ == '__main__':
     shift = fibo(n)
     enc_msg = str.encode(encrypt(p, shift)+'\n')
     clientsocket.send(enc_msg) # send message with "\n"
-    
     msg2 = clientsocket.recv(640).decode('UTF-8') 
+
     
     # We need to do this 50 more times
     key_found = False
-    
     while not key_found:
         
         p = msg2[6:].split(' ')[0]
@@ -62,9 +62,10 @@ if __name__ == '__main__':
         shift = fibo(n)
         enc_msg = str.encode(encrypt(p, shift)+'\n')
         clientsocket.send(enc_msg)
-        msg2 = clientsocket.recv(640).decode('UTF-8')
+        msg2 = clientsocket.recv(128).decode('UTF-8')
         
         if msg2[:4] != 'Shif':
-            print(msg2[:-1])
+            print("Flag: "+msg2[:-1])
             key_found = True
+            
     
