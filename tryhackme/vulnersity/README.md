@@ -91,7 +91,7 @@ I used the python script check_extensions.py for this instead of BurpSuite
 .phtml
 ```
 
-#tty upgrade elevation techniques](http://netsec.ws/?p=337) 
+#[tty upgrade elevation techniques](http://netsec.ws/?p=337) 
 
 Clean alternative without python:
 
